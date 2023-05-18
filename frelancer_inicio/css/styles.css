@@ -1,0 +1,119 @@
+:root{
+ --blanco: #fff;
+ --Oscuro: #212121;
+ --primario: #FFC107;
+ --secundario: #1a92a0;
+ --gris: #757575;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px; /*1rem = 10px*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    /*width: 20rem;*/
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+
+.contenedor{
+ max-width: 120rem;
+ margin: 0 auto 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+   /* align-items: flex-start;*/
+
+}
+
+@media(min-width: 480px){
+
+}
+
+@media(min-width: 768px){
+    .navegacion-principal{
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 1140px){
+ 
+}
+
+@media(min-width: 1180px){
+ 
+}
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--Oscuro);
+   
+}
+
+
+
+
+
+
+
+
+
+/*
+body{
+    background-color: pink;
+    font-size: medium;
+}
+
+@media(min-width: 768px) {
+    body{
+        background-color: lightcoral;
+    }
+}
+
+@media(min-width: 480px) {
+    body{
+        background-color: burlywood;
+    }
+}
+
+.contenedor{
+
+}
+
+.navegacion{
+
+}
+
+@media (min-width: 768px) {
+    body{
+        background-color: lightcoral;
+    }
+}
+*/

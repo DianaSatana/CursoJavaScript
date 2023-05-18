@@ -1,0 +1,36 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px; /*1rem = 10px*/
+}
+
+
+#titulo{
+    
+    text-align: center;
+    font-size: 3.8rem;
+    
+    /*width: 20rem;*/
+}
+
+h1{
+    color: white;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.gnBcO4nzMxiSahqMoZG8TQHaE7?pid=ImgDet&rs=1);
+}
+
+nav{
+    text-align:right;
+    color: whitesmoke;
+}
+span {
+    text-align:center;
+    font-size: 12px;
+    
+}
+
+h2{
+        font-size: 2rem;
+}
